@@ -1,0 +1,33 @@
+Source: fcitx5-libthai
+Priority: optional
+Section: utils
+Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
+Standards-Version: 4.6.0
+Uploaders:
+ Boyuan Yang <byang@debian.org>,
+Build-Depends:
+ appstream,
+ cmake (>= 3.11),
+ debhelper-compat (= 13),
+ extra-cmake-modules,
+ gettext,
+ libfcitx5core-dev (>= 5.0.2),
+ libfcitx5utils-dev,
+ libthai-dev,
+ pkg-config,
+Rules-Requires-Root: no
+Homepage: https://github.com/fcitx/fcitx5-libthai
+Vcs-Git: https://salsa.debian.org/input-method-team/fcitx5-libthai.git
+Vcs-Browser: https://salsa.debian.org/input-method-team/fcitx5-libthai
+
+Package: fcitx5-libthai
+Architecture: any
+Multi-Arch: same
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends},
+Recommends:
+ fcitx5,
+Description: Thai input method engine for Fcitx5 based on LibThai
+ fcitx5-libthai is a Thai IBus input method engine based on LibThai
+ library.

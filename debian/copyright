@@ -1,0 +1,46 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: fcitx5-libthai
+Upstream-Contact: Weng Xuetian <wengxt@gmail.com>
+Source: https://gitlab.com/fcitx/fcitx5-libthai
+
+Files: *
+Copyright: 2020, CSSlayer <wengxt@gmail.com>
+License: GPL-2.0+
+
+Files: debian/*
+Copyright: 2021, Boyuan Yang <byang@debian.org>
+License: CC0-1.0
+
+Files:
+ org.fcitx.Fcitx5.Addon.LibThai.metainfo.xml.in
+Copyright: 2020, CSSlayer <wengxt@gmail.com>
+License: CC0-1.0
+
+Files:
+ src/thaikb.cpp
+Copyright:
+ 2020 CSSlayer <wengxt@gmail.com>
+ 2012 Theppitak Karoonboonyanan <theppitak@gmail.com>
+License: GPL-2.0+
+
+License: CC0-1.0
+ On Debian systems, the full text of the CC0 1.0 Universal License
+ can be found in the file `/usr/share/common-licenses/CC0-1.0'.
+
+License: GPL-2.0+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as
+ published by the Free Software Foundation; either version 2 of the
+ License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public
+ License along with this library; see the file COPYING. If not,
+ see <https://www.gnu.org/licenses/>.
+ .
+ On Debian-based systems, the full text of GPL-2 could be found at
+ /usr/share/common-licenses/GPL-2 .
